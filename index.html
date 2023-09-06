@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&family=Noto+Sans:wght@200;300;400;500&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <a target="_blank" href="https://icons8.com/icon/112468/search"></a>
+    <a target="_blank" href="https://icons8.com"></a>
+    <title>Cook Book</title>
+  </head>
+  <body class="open overflow">
+    <div class="navbar">
+      <div class="input-search">
+        <input
+          type="text"
+          class="nav-input-search"
+          placeholder="Szukaj przepisu..."
+          autocomplete="on"
+        />
+        <a href="#" class="enter-icon-input"
+          ><ion-icon name="arrow-forward-circle-outline"></ion-icon
+        ></a>
+      </div>
+      <div class="nav-btn-container">
+        <button class="nav-btn" id="button">
+          <svg
+            class="loop-nav"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="64"
+            height="64"
+            viewBox="0 0 128 128"
+          >
+            <path
+              d="M 52.349609 14.400391 C 42.624609 14.400391 32.9 18.1 25.5 25.5 C 10.7 40.3 10.7 64.399219 25.5 79.199219 C 32.9 86.599219 42.600391 90.300781 52.400391 90.300781 C 62.200391 90.300781 71.900781 86.599219 79.300781 79.199219 C 94.000781 64.399219 93.999219 40.3 79.199219 25.5 C 71.799219 18.1 62.074609 14.400391 52.349609 14.400391 z M 52.300781 20.300781 C 60.500781 20.300781 68.700391 23.399219 74.900391 29.699219 C 87.400391 42.199219 87.4 62.5 75 75 C 62.5 87.5 42.199219 87.5 29.699219 75 C 17.199219 62.5 17.199219 42.199219 29.699219 29.699219 C 35.899219 23.499219 44.100781 20.300781 52.300781 20.300781 z M 52.300781 26.300781 C 45.400781 26.300781 38.9 29 34 34 C 29.3 38.7 26.700391 44.800391 26.400391 51.400391 C 26.300391 53.100391 27.600781 54.4 29.300781 54.5 L 29.400391 54.5 C 31.000391 54.5 32.300391 53.199609 32.400391 51.599609 C 32.600391 46.499609 34.699219 41.799219 38.199219 38.199219 C 41.999219 34.399219 47.000781 32.300781 52.300781 32.300781 C 54.000781 32.300781 55.300781 31.000781 55.300781 29.300781 C 55.300781 27.600781 54.000781 26.300781 52.300781 26.300781 z M 35 64 A 3 3 0 0 0 32 67 A 3 3 0 0 0 35 70 A 3 3 0 0 0 38 67 A 3 3 0 0 0 35 64 z M 83.363281 80.5 C 82.600781 80.5 81.850781 80.800391 81.300781 81.400391 C 80.100781 82.600391 80.100781 84.499609 81.300781 85.599609 L 83.800781 88.099609 C 83.200781 89.299609 82.900391 90.6 82.900391 92 C 82.900391 94.4 83.8 96.700391 85.5 98.400391 L 98.300781 111 C 100.10078 112.8 102.39922 113.69922 104.69922 113.69922 C 106.99922 113.69922 109.29961 112.79961 111.09961 111.09961 C 114.59961 107.59961 114.59961 101.90039 111.09961 98.400391 L 98.300781 85.599609 C 96.600781 83.899609 94.300391 83 91.900391 83 C 90.500391 83 89.2 83.300391 88 83.900391 L 85.5 81.400391 C 84.9 80.800391 84.125781 80.5 83.363281 80.5 z M 91.900391 88.900391 C 92.700391 88.900391 93.5 89.200781 94 89.800781 L 106.69922 102.5 C 107.89922 103.7 107.89922 105.59922 106.69922 106.69922 C 105.49922 107.89922 103.6 107.89922 102.5 106.69922 L 89.800781 94.099609 C 89.200781 93.499609 88.900391 92.700391 88.900391 91.900391 C 88.900391 91.100391 89.200781 90.300781 89.800781 89.800781 C 90.400781 89.200781 91.100391 88.900391 91.900391 88.900391 z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div class="nav-btn-container">
+        <button class="nav-btn" id="button">
+          <svg
+            class="menu-nav"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="100"
+            height="100"
+            viewBox="0 0 50 50"
+          >
+            <path
+              d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__container">
+        <img src="./img/logo-foodini.png" alt="logo" class="logo-header" />
+        <h3 class="header__container-heading-3">
+          Zwiedzaj świat z moimi ulubionymi <br />przepisami
+        </h3>
+        <h1 class="header__container-heading-1">
+          <span class="h1-1">&nbsp;&nbsp;Podróżuj</span><br />
+          <span class="h1-2">kulinarnie</span>
+        </h1>
+        <div class="header__container-img-box"></div>
+      </div>
+      <a href="#search-section" class="header__container-button btn">
+        Eksploruj
+      </a>
+    </header>
+    <main>
+      <section class="search__section" id="search-section">
+        <div class="text-container">
+          <h4 class="h4-heading-label">Kuchnie</h4>
+          <h2 class="header-heading">Masz ulubioną kuchnię ?</h2>
+        </div>
+
+        <div class="grid-2-col">
+          <div class="big-cart">
+            <div class="img-box">
+              <img src="img/padthai.jpg" alt="pad thai photo" class="img" />
+            </div>
+            <div class="text-box">
+              <h3 class="tiles-heading">Kuchnia Tajska</h3>
+              <span class="tiles-text"
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
+                architecto, esse aut ratione corrupti laborum, saepe iste
+                blanditiis mollitia ducimus, officia reprehenderit harum. Beatae
+                minus, magnam dolorum corporis molestias voluptatem!</span
+              >
+            </div>
+          </div>
+          <div class="tiles-grid-4">
+            <div class="tile">
+              <img src="img/pizza1.jpg" alt="" class="tile-grid-img" />
+              <span class="tiles-heading-2">Kuchnia Włoska</span>
+            </div>
+            <div class="tile">
+              <img src="img/burger-2.jpg" alt="" class="tile-grid-img" />
+              <span class="tiles-heading-2">Kuchnia Amerykańska</span>
+            </div>
+            <div class="tile">
+              <img src="img/sałata-grecka.jpg" alt="" class="tile-grid-img" />
+              <span class="tiles-heading-2">Kuchnia Grecka</span>
+            </div>
+            <div class="tile">
+              <img src="img/chinska.jpg" alt="" class="tile-grid-img" />
+              <span class="tiles-heading-2">Kuchnia Chińska</span>
+            </div>
+          </div>
+        </div>
+        <button class="btn search__section-button">Więcej...</button>
+      </section>
+      <section class="inspirations__section">
+        <div class="inspo-bg flex-column">
+          <div class="inspirations-text-box">
+            <h2 class="inspirations-heading">A moze szukasz inspiracji ?</h2>
+          </div>
+          <div class="grid-8-col">
+            <a href="#" class="flex-row inspo-el-box-1">
+              <div class="inspo-el"></div>
+              <span class="inspo-text">Obiad</span>
+            </a>
+            <a href="#" class="flex-row inspo-el-box-2">
+              <div class="inspo-el"></div>
+              <span class="inspo-text">Fit</span>
+            </a>
+            <a href="#" class="flex-row inspo-el-box-3">
+              <div class="inspo-el"></div>
+              <span class="inspo-text">Śniadanie</span>
+            </a>
+            <a href="#" class="flex-row inspo-el-box-4">
+              <div class="inspo-el"></div>
+              <span class="inspo-text">Zupy</span>
+            </a>
+            <a href="#" class="flex-row inspo-el-box-5">
+              <div class="inspo-el"></div>
+              <span class="inspo-text">Sałatki</span>
+            </a>
+            <a href="#" class="flex-row inspo-el-box-6">
+              <div class="inspo-el"></div>
+              <span class="inspo-text">Surówki</span>
+            </a>
+            <a href="#" class="flex-row inspo-el-box-7">
+              <div class="inspo-el"></div>
+              <span class="inspo-text">Lunche</span>
+            </a>
+            <a href="#" class="flex-row inspo-el-box-8">
+              <div class="inspo-el"></div>
+              <span class="inspo-text">Desery</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="recipes__section">
+        <div class="recipes-wrap">
+          <div class="flex-column">
+            <div class="recipes-head">
+              <h3 class="recipes-heading-main">Szybkie przepisy</h3>
+              <span class="recipes-text"
+                >Nie masz czasu na kilkugodzinne stanie nad kuchenką? Skorzystaj
+                z moich propozycji szybkich dań!</span
+              >
+              <div class="recipes-carousel-wrap flex-row">
+                <a href="#" class="carousel-card">
+                  <img src="./img/spaghetti.jpg" alt="" class="carousel-img" />
+                  <h4 class="carousel-heading">Spaghetti z sosem</h4>
+                  <span class="heading-compliment"
+                    >z pomidorków koktajlowych</span
+                  >
+                  <div class="info-labels flex-row">
+                    <div class="time-label label">30&nbsp;min</div>
+                    <div class="level-label label">easy</div>
+                  </div>
+                </a>
+                <a href="#" class="carousel-card">
+                  <img src="./img/bataty.jpg" alt="" class="carousel-img" />
+                  <h4 class="carousel-heading">Filet z kurczaka</h4>
+                  <span class="heading-compliment">z batatami i surówką</span>
+                  <div class="info-labels flex-row">
+                    <div class="time-label label">30&nbsp;min</div>
+                    <div class="level-label label">easy</div>
+                  </div>
+                </a>
+                <a href="#" class="carousel-card">
+                  <img src="./img/placki.jpg" alt="" class="carousel-img" />
+                  <h4 class="carousel-heading">Placki owsiane</h4>
+                  <span class="heading-compliment">z bananem</span>
+                  <div class="info-labels flex-row">
+                    <div class="time-label label">30&nbsp;min</div>
+                    <div class="level-label label">easy</div>
+                  </div>
+                </a>
+                <a href="#" class="carousel-card">
+                  <img src="./img/filet.jpg" alt="" class="carousel-img" />
+                  <h4 class="carousel-heading">Grillowany filet z kurczaka</h4>
+                  <span class="heading-compliment">z ryzem i surówką</span>
+                  <div class="info-labels flex-row">
+                    <div class="time-label label">30&nbsp;min</div>
+                    <div class="level-label label">easy</div>
+                  </div>
+                </a>
+
+                <a href="#" class="carousel-card">
+                  <img src="./img/stir-fry.jpg" alt="" class="carousel-img" />
+                  <h4 class="carousel-heading">Stir fry</h4>
+                  <span class="heading-compliment">z wołowiną</span>
+                  <div class="info-labels flex-row">
+                    <div class="time-label label">30&nbsp;min</div>
+                    <div class="level-label label">easy</div>
+                  </div>
+                </a>
+                <!-- <div class="carousel-card">
+                  <img src="./img/padthai.jpg" alt="" class="carousel-img">
+                  <h4 class="carousel-heading">Pad Thai</h4>
+                  <span class="heading-compliment">z kurczakiem</span>
+                  <div class="info-labels flex-row">
+                    <div class="time-label label">30&nbsp;min</div>
+                    <div class="level-label label">easy</div>
+                  </div>
+                </div> -->
+                <button class="carousel-btn-next">
+                  <ion-icon
+                    class="carousel-btn-icon"
+                    name="arrow-forward-circle-outline"
+                  ></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="article__section">
+        <div class="article__wrap">
+          <div class="flex-row article-container">
+            <div class="article-img-box">
+              <img src="./img/rice.jpg" alt="" class="article-img" />
+            </div>
+            <div class="flex-column article-text-box">
+              <h4 class="h4-heading-label">Porady</h4>
+              <h2 class="h2-article-heading">Jak ugotować idealny ryz?</h2>
+              <span class="article-text"
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
+                ipsum dolore officia quod quaerat, suscipit rem odio. Sit
+                excepturi quisquam, maxime, ipsa illo reprehenderit ex nisi
+                veniam, distinctio doloremque quasi!</span
+              >
+              <div class="article-btns">
+                <button class="btn-more btn-art">Więcej...</button>
+                <button class="btn-share btn-art">Udostępnij</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tags__section">
+        <div class="tags-wrap">
+          <a href="#" class="tag">Porady</a>
+          <a href="#" class="tag">Przepisy</a>
+          <a href="#" class="tag">Kuchnie</a>
+          <a href="#" class="tag">Przybory</a>
+          <!-- <a href="#" class="tag"></a>
+          <a href="#" class="tag"></a> -->
+        </div>
+      </section>
+      <section class="form__section">
+        <div class="form__box">
+          <div class="form__box-inner">
+            <div class="form__box-inner-wrap">
+              <form action="submit" class="send-mess-form">
+                <div class="form-heading">
+                  <h3 class="form-heading-main">
+                    Nie znalazłaś/eś przepisu którego szukasz ?
+                  </h3>
+                  <span class="form-heading-secondary"
+                    >Wyślij mi nazwę dania, a ja dodam moją wersję przepisu
+                    !</span
+                  >
+                </div>
+                <div class="actual-form">
+                  <div class="input-wrap">
+                    <input
+                      type="text"
+                      minlength="3"
+                      class="input-field"
+                      required
+                      id="name"
+                      placeholder="Imię"
+                    />
+                    <label for="name">Imię</label>
+                  </div>
+                  <div class="input-wrap">
+                    <textarea
+                      name="wiadomość"
+                      id="message"
+                      cols="30"
+                      rows="5"
+                      placeholder="Twoja wiadomość"
+                    ></textarea>
+                  </div>
+                  <button class="submit-button btn">Wyślij</button>
+                </div>
+              </form>
+            </div>
+            <div class="img-box">
+              <div class="form__box-inner-img"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog__article"></section>
+      <section class="footer__section">
+        <div class="footer__wrap">
+          <div class="footer">
+            <img
+              src="./img/logo-foodini.png"
+              alt="company logo"
+              class="footer-logo"
+            />
+            <div class="copyright">
+              <span class="copy-copyright"
+                >Foodini&copy;2023. All rights reserved.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script defer src="js/script.js"></script>
+</html>

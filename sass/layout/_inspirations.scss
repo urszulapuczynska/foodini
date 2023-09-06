@@ -1,0 +1,87 @@
+.inspo-el-box {
+  &-1 {
+    background-image: url("../img/kotlet.jpg");
+  }
+  &-2 {
+    background-image: url("../img/sałata.jpg");
+  }
+  &-3 {
+    background-image: url("../img/naleśnik.jpg");
+  }
+  &-4 {
+    background-image: url("../img/zupa.jpg");
+  }
+  &-5 {
+    background-image: url("../img/sałatka.jpg");
+  }
+  &-6 {
+    background-image: url("../img/surówka.jpg");
+  }
+  &-7 {
+    background-image: url("../img/lunch.jpg");
+  }
+  &-8 {
+    background-image: url("../img/deser.jpg");
+  }
+  &-1,
+  &-2,
+  &-3,
+  &-4,
+  &-5,
+  &-6,
+  &-7,
+  &-8 {
+    width: 15rem;
+    height: 15rem;
+
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: $shadow-light;
+    position: relative;
+
+    .inspo-text {
+      color: $color-primary-dark;
+      font-size: 2.2rem;
+      // background-color: $color-brown-middle;
+      // backdrop-filter: blur(3px);
+      padding: 1rem 3rem;
+
+      border-radius: 2px;
+      position: absolute;
+      bottom: 0;
+      transform: translateY(50px);
+      padding-bottom: 10px;
+      font-family: $heading-font-family;
+
+      &:hover {
+        border-bottom: 1px solid $color-black;
+        color: $color-black;
+      }
+    }
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 45rem;
+    height: 15rem;
+    background-image: linear-gradient(to right, $color-grey-light, transparent);
+  }
+}
+
+.inspo-bg {
+  width: 100%;
+  height: 100%;
+  background-color: $color-grey-light;
+  padding: 3.2rem;
+  padding-bottom: 10rem;
+}
+
+.inspirations-text-box {
+  margin-left: 10rem;
+}

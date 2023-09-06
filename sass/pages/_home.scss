@@ -1,0 +1,49 @@
+body {
+  position: relative;
+}
+
+.search__section {
+  height: 100vh;
+  width: 100%;
+  margin-top: 10rem;
+  position: relative;
+}
+
+.inspirations__section {
+  width: 100%;
+  margin: 12rem 0;
+  position: relative;
+  // padding: 0 10rem;
+  // margin-bottom: 10rem;
+}
+
+.form__section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 7rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__section {
+  width: 100%;
+  height: 30vh;
+}
+
+.article__section {
+  max-width: 130rem;
+  height: 100vh;
+  position: relative;
+  margin: 0 auto;
+}
+
+.tags__section {
+  margin: 0 auto;
+}
+.recipes__section {
+  width: 130rem;
+  max-width: 130rem;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 4.8rem 1rem 4.8rem;
+}

@@ -1,0 +1,41 @@
+@keyframes jumpDown {
+  0% {
+    transform: translateY(7px);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  80% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bgFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

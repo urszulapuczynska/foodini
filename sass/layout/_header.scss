@@ -1,0 +1,90 @@
+.header {
+  height: 95vh;
+  position: relative;
+
+  &__container {
+    height: 95vh;
+    background-image: linear-gradient(transparent, $color-white),
+      url(../img/bg-header.jpg);
+    background-size: cover;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    z-index: -10;
+
+    animation: bgFadeIn 0.8s ease-in-out;
+    animation-fill-mode: backwards;
+
+    &-button {
+      bottom: 3rem;
+      left: 45%;
+      text-shadow: $text-shadow;
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        animation: jumpDown 1.5s infinite;
+        cursor: pointer;
+      }
+    }
+
+    &-heading-1 {
+      position: absolute;
+      top: 37.5rem;
+      left: 2rem;
+
+      animation: fadeIn 0.5s ease-in-out;
+      animation-fill-mode: backwards;
+      animation-delay: 0.5s;
+    }
+
+    &-heading-3 {
+      position: absolute;
+      top: 20rem;
+      right: 5rem;
+
+      animation: fadeIn 1s ease-out;
+      animation-fill-mode: backwards;
+      animation-delay: 0.2s;
+    }
+
+    &-img-box {
+      width: 45rem;
+      height: 45rem;
+      border-radius: 3000px;
+      background-image: url("../img/header-img.jpg");
+      background-size: cover;
+      z-index: 5;
+      top: 10rem;
+      left: 10rem;
+      // position: ;
+
+      &::before {
+        content: "";
+        width: 50rem;
+        height: 50rem;
+        border-radius: 300px;
+        background-color: $color-primary-light-2;
+        position: absolute;
+        top: -1.5rem;
+        left: -1.5rem;
+        transform: translate(-10px, -10px);
+        z-index: -1;
+      }
+    }
+  }
+}
+
+.overflow {
+  overflow: hidden;
+}
+.logo-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem;
+}
